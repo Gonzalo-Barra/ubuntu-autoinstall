@@ -2,7 +2,7 @@ autoinstall:
   version: 1
   keyboard:
     layout: es
-  timezone: Americas/Chile
+  timezone: America/Santiago
   identity:
     username: WorkStation  
     hostname: gonzalo
