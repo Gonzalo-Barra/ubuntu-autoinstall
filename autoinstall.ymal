@@ -44,5 +44,4 @@ autoinstall:
   storage:
     layout:
       name: lvm
-      match:
-        path: /dev/nvme0n1
+
