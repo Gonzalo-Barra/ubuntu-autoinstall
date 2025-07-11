@@ -1,0 +1,48 @@
+#cloud-config
+autoinstall:
+  version: 1
+  source:
+    id: ull-fledged ubuntu-desktop
+  locale: en_US.UTF-8
+  keyboard:
+    layout: es
+  timezone: Americas/Chile
+    ethernets:
+      enp1s6:
+        dhcp4: true
+  identity:
+    username: WorkStation  
+    hostname: gonzalo
+    password: '1'  
+  packages:
+    - git
+    - python3-pip
+    - neofetch
+    - nodejs
+    - npm
+    - snapd
+  snaps:
+    - name: code
+      channel: stable 
+      classic: true
+    - name: Postman
+      channel: stable 
+      classic: true
+    - name: Discord
+      channel: stable 
+      classic: true
+    - name: Steam
+      channel: stable 
+      classic: true
+    - name: Obsidian
+      channel: stable 
+      classic: true
+    - name: Ultimaker Cura
+      channel: stable 
+  autoinstall:
+    shutdown: reboot  
+  storage:
+    layout:
+      name: lvm
+      match:
+        path: /dev/nvme0n1
