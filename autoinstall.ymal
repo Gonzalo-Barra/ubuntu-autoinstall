@@ -1,13 +1,15 @@
 autoinstall:
   version: 1
-  locale: en_US.UTF-8
   keyboard:
     layout: es
   timezone: Americas/Chile
   identity:
     username: WorkStation  
     hostname: gonzalo
-    password: '1'  
+    password: '1'
+  storage:
+    layout:
+      name: lvm
   packages:
     - git
     - python3-pip
@@ -35,6 +37,3 @@ autoinstall:
       channel: stable 
   autoinstall:
     shutdown: reboot  
-  storage:
-    layout:
-      name: lvm
