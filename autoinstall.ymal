@@ -1,15 +1,9 @@
-#cloud-config
 autoinstall:
   version: 1
-  source:
-    id: ull-fledged ubuntu-desktop
   locale: en_US.UTF-8
   keyboard:
     layout: es
   timezone: Americas/Chile
-    ethernets:
-      enp1s6:
-        dhcp4: true
   identity:
     username: WorkStation  
     hostname: gonzalo
@@ -44,4 +38,5 @@ autoinstall:
   storage:
     layout:
       name: lvm
-
+      match:
+        path: /dev/nvme0n1
