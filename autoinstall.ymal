@@ -6,7 +6,7 @@ autoinstall:
   identity:
     username: WorkStation  
     hostname: gonzalo
-    password: '1'
+    password: "123"
   storage:
     layout:
       name: lvm
@@ -35,4 +35,5 @@ autoinstall:
       classic: true
     - name: Ultimaker Cura
       channel: stable 
-
+  autoinstall:
+    shutdown: reboot  
