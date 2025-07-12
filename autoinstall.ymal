@@ -6,7 +6,7 @@ autoinstall:
   identity:
     username: gonzalo  
     hostname: workstation
-    password: "$6$Yrw8PNtwUIe3SfKT$SLWRgmrLmMaUKqU/5O8Dr4fC4sKUJpIXlmQDKSGLQAm2X2AePq1G9EmqGIVTX3NKFEW9aXo0TWWUM5F0OTrcl."
+    password: "$6$Nz8AaJ0STvVZrEOp$IOsHQmE6X5jU2R76XFtw7EMqb6ujJpUItQ9ywNUn.BMKnyUaA/sggnTnTMsA8vjhUGUsyyJJIHiZXl2HL/dgI."
   storage:
     layout:
       name: lvm
