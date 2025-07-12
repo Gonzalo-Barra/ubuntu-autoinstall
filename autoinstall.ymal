@@ -35,6 +35,4 @@ autoinstall:
       classic: true
     - name: Ultimaker Cura
       channel: stable 
-  autoinstall:
-    shutdown: reboot  
-
+  shutdown: reboot
